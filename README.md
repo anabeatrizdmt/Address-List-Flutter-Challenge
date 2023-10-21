@@ -1,16 +1,10 @@
-# api_app
+# Address Lookup App
 
-A new Flutter project.
+A Flutter app that allows users to look up address information using the Via CEP open API and save it to a Back4App database via HTTP requests.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Search for address details by entering a postal code (CEP).
+- Display address information such as street, city, state, and more.
+- Save addresses to a Back4App database for future reference.
+- Remove saved addresses when no longer needed by swiping the card.
